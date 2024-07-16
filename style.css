@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0px;
+    background-color: #f9fafa;
+  
+}
+body{
+    background-color: black;
+}
+
+
+.container div img{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+.about{
+    margin-top: 90px;
+}
+.btne{
+    box-shadow: 5px 5px 10px;
+    justify-content: space-between;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+   
+}
+.skill{
+    height: 100px;
+}
+.skillname{
+    color: yellow;
+    opacity: 75%;
+background-color: transparent;
+}
+.skill{
+border-radius: 20px;
+box-shadow: 20px 30px 50px;
+}
+#about{
+    border-radius: 30px;
+    box-shadow: 20px 30px 50px;   
+}
+.project{
+    border-radius: 30px;
+    box-shadow: 20px 30px 50px;   
+}
+.projectimg{
+    border-radius: 50%;
+}
+.contact{
+    border-radius: 30px;
+    box-shadow: 20px 30px 50px; 
+  
+}
+input{
+    border-radius: 10px;  
+    
+}
+textarea{
+    border-radius: 10px; 
+    width: 130%;
+    height: 150px;
+} 
+/* .navbar-nav :hover{
+    text-decoration: underline cyan;
+
+    
+
+} */
+ .navbar-nav a{
+    text-decoration: none;
+    color: antiquewhite;
+    position: relative;
+    
+ }
+ .navbar-nav a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: .5s;
+    
+ }
+
+
+ .navbar-nav a:hover::after{ 
+    /* color: rgb(9, 240, 240); */
+    font-size: 3.07rem;
+    width: 100%;
+    
+    }
+    .button1{
+        font-size:20px;
+    }
+
+.button1 :hover{
+  
+ font-size:25px;
+}
+.icon :hover{
+    width: 30px;
+    height: 30px;
+}
+#submit :hover{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+#footer{
+  padding-left: 150px;
+    width: 100%;
+   
+    justify-content: end;
+    
+}
+
+.pottan{
+    text-align: center;
+}
